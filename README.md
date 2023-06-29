@@ -2,6 +2,8 @@
 
 Este es un proyecto de boilerplate sencillo para iniciar rápidamente el desarrollo de aplicaciones React. El proyecto ya viene configurado con ESLint y Prettier para ayudarte a mantener un código limpio y consistente.
 
+![Screen inicio](/public/screen.png)
+
 ## 📋 Requisitos previos
 
 Antes de comenzar, asegúrate de tener instalado Node.js en tu sistema. Puedes descargar la última versión estable de Node.js desde el sitio oficial: [https://nodejs.org](https://nodejs.org)

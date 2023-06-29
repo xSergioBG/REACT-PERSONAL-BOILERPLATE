@@ -3,9 +3,9 @@ module.exports = {
 		browser: true,
 		es2021: true,
 	},
-  settings: {
-    react: {version: 'detect'}
-  },
+	settings: {
+		react: { version: 'detect' },
+	},
 	extends: [
 		'standard',
 		'plugin:react/recommended',
@@ -28,5 +28,7 @@ module.exports = {
 		sourceType: 'module',
 	},
 	plugins: ['react'],
-	rules: {},
+	rules: {
+		'react/prop-types': 'off',
+	},
 };

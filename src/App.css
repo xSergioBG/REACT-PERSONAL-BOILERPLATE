@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: black;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px; /* Ajusta el espacio entre los logos y el texto */
+}
+
+.title {
+	font-size: 32px;
+	color: #a5a5a5;
+}
+
+.summary {
+	font-size: 18px;
+	color: #a5a5a5;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.text-container {
+	margin: 20px auto;
+	text-align: center;
+	max-width: 800px; /* Ajusta el ancho máximo deseado */
+	padding: 0 20px; /* Ajusta el margen horizontal deseado */
+}
+
+
+
+.logo-react {
+	animation: rotate 5s linear infinite;
+	width: 200px; /* Ajusta el ancho deseado */
+	height: auto; /* Permite que la altura se ajuste proporcionalmente */
+}
+.logo-vite {
+    width: 200px; /* Ajusta el ancho deseado */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente */
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

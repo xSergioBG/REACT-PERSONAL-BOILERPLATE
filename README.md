@@ -15,13 +15,14 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
 1. Clona este repositorio en tu máquina local o descarga el archivo ZIP.
 
 ```shell
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/xSergioBG/REACT-PERSONAL-BOILERPLATE.git
+cd REACT-PERSONAL-BOILERPLATE
 ```
 
 2. Instala las dependencias del proyecto utilizando npm o yarn
 
 ```shell
-npm install
+npm ci
 ```
 
 ```shell
